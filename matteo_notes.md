@@ -31,17 +31,19 @@ a **post** on the other hand is a file that contains the actual information. Suc
 
 ## Organizing Blog posts based on categories only
 
+```
 ---
 layout: post
 date: 2018-02-13
 categories: ansible-tower devops #cat1, cat2, cat3 .....
 permalink: /:categories
 ---
+```
 
 now I will have: /ansible-tower/devops
 
 ## Organizing Blog posts based on categories and title name
-
+```
 ---
 layout: post
 title: ansible smells
@@ -49,7 +51,7 @@ date: 2018-02-13
 categories: ansible-tower devops #cat1, cat2, cat3 .....
 permalink: /:categories/:title.html
 ---
-
+```
 now I will have: /ansible-tower/devops/ansible-smells.html
 
 
@@ -59,12 +61,13 @@ Jekyll is pretty annoying and it asks to follow specific nameing conventions for
 2. you can create subfolders but always name your post: YYYY-MM-DD-<name>.md
 3. Use permalinks to impose the URL to use.
 
+```
 |-- _posts
 |   |-- 2018-09-16-first-article.markdown
 |   |-- 2018-09-16-welcome-to-jekyll.markdown
 |   `-- ansible-tower
 |       `-- 2018-09-14-ansible-tower-intro.md
-
+```
 
 ## Use Themes
 1. Check online for the theme you like
