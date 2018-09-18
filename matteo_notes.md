@@ -84,3 +84,7 @@ Info and provided layouts can be found in the **layout** folder in the source Gi
 2. Update *baseurl* variable in the **_config.yml**
 3. Create git repo: git init
 4. Checkout gh-pages: git checkout -b gh-pages
+
+
+## LunrJS
+http://rayhightower.com/blog/2016/01/04/how-to-make-lunrjs-jekyll-work-together/
