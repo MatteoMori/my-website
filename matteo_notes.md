@@ -1,10 +1,10 @@
 # Jekyll notes
 
 ## New Jekyll project
-* jekyll new <site name>
+`jekyll new <site name>`
 
 ## Serve your website locally
-* bundle exec jekyll serve
+`bundle exec jekyll serve`
 * access website at localhost:4000
 
 
@@ -15,8 +15,7 @@ this is the folder containing your built website
 ## Online notes
 [Structuring posts](https://miklb.com/blog/2016/04/26/organizing-jekyll-posts/)
 
-
-	you can create top level folders each with their own _posts sub-folder and Jekyll will read from each one, appending that folder name to the generated url for the post, i.e. a folder foo with _posts with 2016-04-26-post-title would yield a URL of example.com/foo/post-title (varying by your permalink structure). Those top level folders are then treated as categories, allowing for more filtration within your templates and site organization.
+> you can create top level folders each with their own _posts sub-folder and Jekyll will read from each one, appending that folder name to the generated url for the post, i.e. a folder foo with _posts with 2016-04-26-post-title would yield a URL of example.com/foo/post-title (varying by your permalink structure). Those top level folders are then treated as categories, allowing for more filtration within your templates and site organization.
 
 
 [Structuring - GH repo](https://github.com/yafred/organizing-posts-with-jekyll/blob/master/_config.yml)
