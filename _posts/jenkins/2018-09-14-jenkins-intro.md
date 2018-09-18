@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jenkins Intro
-categories: who-we-are d-team services jenkins
+categories: what-we-do d-team services jenkins
 permalink: /:categories/:title.html
 featured-img: jenkins
 ---
